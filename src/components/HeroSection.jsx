@@ -22,7 +22,7 @@ const HeroSection = ({ scrollY }) => {
               <span className="gradient-text">Valentin Blacutt</span>
             </h1>
             <p className="hero-subtitle">
-              Estudiante de Técnico en Programación | Futuro graduado 2025
+              Estudiante de Técnico en Programación | Futuro graduado 2026
             </p>
             <div className="hero-buttons">
               <a href="#proyectos" className="btn btn-primary">
