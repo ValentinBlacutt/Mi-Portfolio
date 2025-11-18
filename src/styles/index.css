@@ -1,0 +1,47 @@
+/* ===== ARCHIVO PRINCIPAL DE ESTILOS ===== */
+
+/* Importar todos los estilos */
+@import './App.css';
+@import './animations.css';
+@import './components.css';
+@import './sections.css';
+
+/* Utilidades adicionales */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Mejoras de rendimiento */
+* {
+  box-sizing: border-box;
+}
+
+/* Optimizaciones de scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mejora de fuentes */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+/* Focus visible para accesibilidad */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
+}
+
+/* Reduce motion para usuarios sensibles */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
