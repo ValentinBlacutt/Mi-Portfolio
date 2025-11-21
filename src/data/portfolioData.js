@@ -52,11 +52,26 @@ export const DATA = {
       estado: "Completado",
       features: [
         "Catálogo de productos dinámico",
-        "Sistema de carrito de compras",
+        "Conexión con Whatsapp",
         "Desarrollo rápido (5 dias)",
         "Diseño responsive"
       ],
       url:"https://ssianimportados.42web.io/?i=1"
+    },
+
+    {
+      nombre: "Sistema De Biblioteca",
+      descripcion: "Sistema para biblioteca que ofrece prestamos de sus libros, es un proyecto escolar que se pidio de rápida entrega",
+      tecnologias: ["ASP.NET Core", "Blazor", "Entity Framework", "MVC", "SQL Server"],
+      destacado: false,
+      estado: "Completado",
+      features: [
+        "Sistema de prestamos",
+        "Conexión con google cloud",
+        "Desarrollo rápido ( 7 dias)",
+        "Diseño responsive"
+      ],
+      url:"http://bibliotecaproyecto.somee.com"
     }
   ],
 
