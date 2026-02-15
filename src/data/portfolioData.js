@@ -1,6 +1,20 @@
 export const DATA = {
   proyectos: [
     {
+      nombre: "Biopandora",
+      descripcion: "E-Commerce hecho a medida para un Mercado Agroecólogico, tiene ABM completo de cada producto, pedido,etc, Muestra métricas de las ventas, conexión a afip, envio de mails y mucho más.",
+      tecnologias: ["PHP", "MySql", "JavaScript", "HTML5"],
+      destacado: true,
+      estado: "Completado",
+      features: [
+        "ABM completo de pedidos, productos y más",
+        "Interfaz moderna y adaptable",
+        "Métricas de negocio",
+        "Automatización de Procesos"
+      ],
+      url:"biopandora.com.ar"
+    },
+    {
       nombre: "Zinclas",
       descripcion: "Sistema de gestión de tareas diseñado para operar dentro de una red local (LAN). Permite la organización eficiente de proyectos y actividades dentro de instituciones o empresas, conectando diferentes áreas mediante una interfaz moderna y adaptable.",
       tecnologias: ["ASP.NET Core", "SQL Server", "Entity Framework", "MVVM"],
