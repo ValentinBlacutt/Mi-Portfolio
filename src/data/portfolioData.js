@@ -2,7 +2,7 @@ export const DATA = {
   proyectos: [
     {
       nombre: "Biopandora",
-      descripcion: "E-Commerce hecho a medida para un Mercado Agroecólogico, tiene ABM completo de cada producto, pedido,etc, Muestra métricas de las ventas, conexión a afip, envio de mails y mucho más.",
+      descripcion: "Sistema de comercio electrónico desarrollado a medida para la gestión y venta de productos agroecológicos. La plataforma cuenta con un sistema ABM completo para administrar productos, pedidos, clientes y todas las operaciones comerciales de forma eficiente. Incluye un panel de métricas avanzado que proporciona información en tiempo real sobre el rendimiento de ventas, permitiendo visualizar estadísticas clave y tomar decisiones basadas en datos concretos. Entre sus características principales se encuentran la integración directa con AFIP para facturación electrónica automatizada, sistema de notificaciones por email para mantener informados a clientes y administradores, y una interfaz intuitiva diseñada específicamente para las necesidades del mercado agroecológico, facilitando la conexión entre productores y consumidores conscientes.",
       tecnologias: ["PHP", "MySql", "JavaScript", "HTML5"],
       destacado: true,
       estado: "Completado",

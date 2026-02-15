@@ -10,7 +10,8 @@ const AboutSection = () => {
         <div className="animated-border-card about-card">
           <p className="about-text">
             Tengo 18 años y soy estudiante del último año de la <strong>Escuela Secundaria Técnica N° 6 Chacabuco</strong>, 
-            donde me formo como Técnico en Programación.
+            donde me formo como Técnico en Programación. Actualmente me encuentro trabajando como desarrollador full stack jr
+            en el <strong>Goethe Shule</strong>
           </p>
           <p className="about-text">
             Cuento con conocimientos avanzados en desarrollo backend con <strong>ASP.NET Core</strong>, 
